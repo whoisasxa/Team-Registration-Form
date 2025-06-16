@@ -13,7 +13,7 @@ Includes the following:
 ## How to Use
 
 1. Clone or download the repo
-2. Open `index.html` in your browser
+2. Open `registration.html` in your browser
 3. Modify or extend as needed!
 
 ## Built With
