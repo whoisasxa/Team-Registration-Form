@@ -1,0 +1,94 @@
+/* === General Page Styling === */
+body {
+  background-color: #f8f9fa; /* Soft light gray */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === Navbar === */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0dcaf0; /* Bootstrap info blue */
+}
+
+/* === Form Styling === */
+form label {
+  font-weight: 600;
+}
+
+form input:focus,
+form input:active {
+  border-color: #198754 !important; /* Bootstrap success green */
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+.was-validated .form-control:invalid {
+  border-color: #dc3545; /* Bootstrap danger red */
+}
+
+.was-validated .form-control:valid {
+  border-color: #198754;
+}
+
+/* === Buttons === */
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+.btn-secondary:hover {
+  background-color: #6c757d;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+}
+
+/* === Image Styling === */
+.container-fluid img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-bottom: 4px solid #0d6efd;
+}
+
+.rounded-circle {
+  border: 4px solid #dee2e6;
+  padding: 4px;
+  background-color: #fff;
+}
+
+/* === Table Styling === */
+.table thead th {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.table-striped tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* === Footer / Message Placeholder === */
+#message {
+  font-weight: 600;
+  color: #198754;
+  text-align: center;
+}
